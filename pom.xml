@@ -9,11 +9,11 @@
 		<version>2.2.5.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sdd.absensi</groupId>
-	<artifactId>e-absensi</artifactId>
+	<groupId>com.example.project</groupId>
+	<artifactId>example-project</artifactId>
 	<version>0.0.1-snap</version>
-	<name>e-absensi</name>
-	<description>E - Absensi Web Service</description>
+	<name>example-project</name>
+	<description>Example Project</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -33,11 +33,13 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
+		    <groupId>com.h2database</groupId>
+		    <artifactId>h2</artifactId>
+		    <scope>runtime</scope>
 		</dependency>
+
 		<!-- swagger -->
 		<dependency>
 			<groupId>io.springfox</groupId>
